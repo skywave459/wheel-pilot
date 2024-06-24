@@ -1,0 +1,62 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_driver_assigned",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nearby_drivers",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "ride_requestedTime",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_driver_assigned",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "driver_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ride_completed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ride_requestedTime",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "rides",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "driver_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ride_completed",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ride_requestedTime",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "775246432834",
+    "project_id": "wheel-pilot",
+    "storage_bucket": "wheel-pilot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775246432834:android:790b2a2f5c71824e14bbdb",
+        "android_client_info": {
+          "package_name": "com.SkyWaves.WheelPilot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3hGNHd7TTXTlxER2cSXvRgFu1sQc08es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
